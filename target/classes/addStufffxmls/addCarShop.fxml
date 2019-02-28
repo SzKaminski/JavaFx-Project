@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MenuButtonsController">
+    <TextField fx:id="signTextField" layoutX="222.0" layoutY="14.0" promptText="Type name" />
+    <Button fx:id="addCarShopButton" layoutX="223.0" layoutY="163.0" mnemonicParsing="false" onAction="#addNewCarShop" prefHeight="25.0" prefWidth="149.0" text="Add CarShop" />
+   <ImageView fitHeight="108.0" fitWidth="173.0" layoutX="28.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../pictures/carshop.png" />
+      </image>
+   </ImageView>
+
+</AnchorPane>
